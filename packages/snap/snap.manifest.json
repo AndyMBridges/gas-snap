@@ -1,0 +1,29 @@
+{
+  "version": "0.1.0",
+  "description": "Snap to explore gas fees",
+  "proposedName": "Gas Fee Explorer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+  },
+  "source": {
+    "shasum": "h8zZhBEZdsHee/ySVS6xTEUwoPj6Ripl2euH4Jb1tRE=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "packageName": "snap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "endowment:page-home": {},
+    "endowment:network-access": {},
+    "snap_dialog": {},
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": false
+    }
+  },
+  "manifestVersion": "0.1"
+}
